@@ -23,7 +23,7 @@
         "laravel": {
             "providers": [
                 "Southcoastweb\\News\\NewsServiceProvider"
-            ],
+            ]
         }
     },
     "minimum-stability": "dev",
