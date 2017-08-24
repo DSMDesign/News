@@ -25,7 +25,7 @@
                 "Southcoastweb\\News\\NewsServiceProvider"
             ],
             "aliases": {
-                "News":"Southcoastweb\News\Controllers\NewsController"   
+                "News":"Southcoastweb\\News\\Controllers\\NewsController"   
             }
         }
     },
