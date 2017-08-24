@@ -23,7 +23,10 @@
         "laravel": {
             "providers": [
                 "Southcoastweb\\News\\NewsServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "News":"Southcoastweb\News\Controllers\NewsController"   
+            }
         }
     },
     "minimum-stability": "dev",
