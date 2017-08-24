@@ -1,0 +1,16 @@
+{
+    "name": "southcoastweb/useful",
+    "description": "A news feed helper class",
+    "type": "laravel",
+    "require": {
+        "php": "7.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "southcoastweb",
+            "email": "kenny@southcoastweb.co.uk"
+        }
+    ],
+    "minimum-stability": "dev"
+}
