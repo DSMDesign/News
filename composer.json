@@ -25,7 +25,7 @@
                 "Southcoastweb\\News\\NewsServiceProvider"
             ],
         }
-    }
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
