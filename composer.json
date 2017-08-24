@@ -1,8 +1,8 @@
 {
     "name": "southcoastweb/news",
     "description": "A news feed helper class",
-    "type": "laravel",
     "require": {
+        "php": ">=5.5.9",
     },
     "license": "MIT",
     "authors": [
@@ -11,5 +11,21 @@
             "email": "kenny@southcoastweb.co.uk"
         }
     ],
-    "minimum-stability": "dev"
+    "autoload": {
+        "psr-4": {
+            "Southcoastweb\\News\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Southcoastweb\\News\\NewsServiceProvider"
+            ],
+        }
+    }
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
