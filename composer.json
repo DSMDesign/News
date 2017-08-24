@@ -1,5 +1,5 @@
 {
-    "name": "southcoastweb/useful",
+    "name": "southcoastweb/news",
     "description": "A news feed helper class",
     "type": "laravel",
     "require": {
